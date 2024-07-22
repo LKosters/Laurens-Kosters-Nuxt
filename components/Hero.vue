@@ -4,12 +4,14 @@
       <div>
         <div class="avatar">
           <div class="w-32 rounded-full">
-            <NuxtImg :src="$urlFor(siteSettings.logo).size(500).url()" />
+            <NuxtImg v-if="siteSettings" :src="$urlFor(siteSettings.logo).size(500).url()" />
           </div>
         </div>
       </div>
       <div>
-        <h1 class="text-5xl font-extrabold mb-5">Titel</h1>
+        <h1 class="text-5xl font-extrabold mb-5">
+          Lorem ipsum odor amet, consectetuer adipiscing elit.
+        </h1>
         <div>
           <div class="tooltip" data-tip="GitHub">
             <button data-tip="hello" class="btn btn-square mr-3">

@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', "@nuxtjs/sanity", "@nuxt/image"],
+  modules: ['@nuxtjs/tailwindcss', "@nuxtjs/sanity", "@nuxt/image", "nuxt-svgo"],
   sanity: {
     projectId: 'g1np79jx'
   }

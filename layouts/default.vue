@@ -1,4 +1,4 @@
 <template>
   <slot/>
-  Footer
+  <Footer/>
 </template>
